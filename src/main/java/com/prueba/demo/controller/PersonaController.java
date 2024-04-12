@@ -25,7 +25,7 @@ public class PersonaController {
     }
 
     @PostMapping("/create")
-    public Persona createPersona(@RequestBody Persona persona){
+    public Persona createPersona (@RequestBody Persona persona){
         return personaInterface.create(persona);
     }
 
